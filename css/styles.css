@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Stardew_Valley;
+  src: url(/fonts/Stardew_Valley.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: url(/images/stardew-background.png) center center;
+  background-size: cover;
+  font-family: Stardew_Valley;
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  height: 1rem;
+}
+
+h1 {
+  color: white;
+  display: inline;
+  font-size: 72px;
+  margin: 0;
+  text-shadow: 0px 0px 5px black;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+  padding: 0 9rem;
+}
+
+.title > div {
+  display: flex;
+  align-items: center;
+}
+
+.title > div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.stardew-logo {
+  height: 7rem;
+  margin: 0 1rem;
+}
+
+#date-input {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#date-input > input {
+  border: none;
+  border-radius: 3rem;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
+
+#date-input > button {
+  border: none;
+  border-radius: 3rem;
+  color: white;
+  font-size: 4rem;
+  padding: 0 1.25rem;
+}
+
+.character-items {
+  column-gap: 40px;
+  display: grid;
+  grid: repeat(2,1fr) / repeat(6,1fr);
+  justify-items: center;
+  margin: 4rem 4rem;
+  row-gap: 40px;
+}
+
+.character {
+  height: 10rem;
+}
+
+
+
