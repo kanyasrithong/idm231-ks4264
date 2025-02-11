@@ -4,6 +4,7 @@
 }
 * {
   box-sizing: border-box;
+  cursor: url(/images/stardew-cursor.png), auto;
   margin: 0;
   padding: 0;
 }
@@ -36,7 +37,7 @@ h1 {
 }
 
 #muted:hover {
-  cursor: pointer;
+  cursor: url(/images/stardew-hand.png), auto;
   transform: scale(1.1);
 }
 
@@ -48,7 +49,7 @@ h1 {
 }
 
 #help:hover {
-  cursor: pointer;
+  cursor: url(/images/stardew-hand.png), auto;
   transform: scale(1.1);
 }
 
@@ -84,6 +85,7 @@ h1 {
   font-size: 2rem;
   padding: 0.5rem 1rem;
   height: 4rem;
+  outline: none;
 }
 
 #date-input > div {
@@ -94,7 +96,7 @@ h1 {
 }
 
 #date-input > div:hover {
-  cursor: pointer;
+  cursor: url(/images/stardew-hand.png), auto;
   transform: scale(1.1);
 }
 
@@ -114,8 +116,8 @@ h1 {
 }
 
 .character:hover {
+  cursor: url(/images/stardew-hand.png), auto;
   transform: scale(1.1);
-  cursor: pointer;
 }
 
 
