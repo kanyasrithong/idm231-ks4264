@@ -139,8 +139,8 @@ function zodiac_info(which_one) {
     case 'Lewis':
       console.log('Lewis')
       zodiac_popup_obj.classList.remove('hide');
-      zodiac_picture_obj.src = 'images/stardew-lewis.webp';
-      zodiac_sprites_obj.src = 'images/sprites/lewis-sprites.png'
+      zodiac_picture_obj.src = 'images/zodiac-profiles/lewis-profile.webp';
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/lewis-sprites.png'
       zodiac_date_obj.innerHTML = 'December 22 - January 19';
       zodiac_description_obj.innerHTML = 'You are a natural born leader. Your duties are what motivate you, and you are loved by those around you.';
       //Play audio for this character
@@ -149,8 +149,8 @@ function zodiac_info(which_one) {
     case 'Marnie':
       console.log('Marnie')
       zodiac_popup_obj.classList.remove('hide');
-      zodiac_picture_obj.src = 'images/stardew-marnie.webp';
-      zodiac_sprites_obj.src = 'images/sprites/marnie-sprites.png'
+      zodiac_picture_obj.src = 'images/zodiac-profiles/marnie-profile.webp';
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/marnie-sprites.png'
       zodiac_date_obj.innerHTML = 'January 20 - February 18';
       zodiac_description_obj.innerHTML = 'Marnie is cool';
       //Play audio for this character
@@ -159,8 +159,8 @@ function zodiac_info(which_one) {
     case 'Robin':
       console.log('Robin')
       zodiac_popup_obj.classList.remove('hide');
-      zodiac_picture_obj.src = 'images/stardew-robin.webp';
-      zodiac_sprites_obj.src = 'images/sprites/robin-sprites.png'
+      zodiac_picture_obj.src = 'images/zodiac-profiles/robin-profile.webp';
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/robin-sprites.png'
       zodiac_date_obj.innerHTML = 'February 19 - March 20';
       zodiac_description_obj.innerHTML = 'Robin is cool';
       //Play audio for this character
@@ -169,8 +169,8 @@ function zodiac_info(which_one) {
     case 'Demetrius':
       console.log('Demetrius')
       zodiac_popup_obj.classList.remove('hide');
-      zodiac_picture_obj.src = 'images/stardew-demetrius.webp';
-      zodiac_sprites_obj.src = 'images/sprites/demetrius-sprites.png'
+      zodiac_picture_obj.src = 'images/zodiac-profiles/demetrius-profile.webp';
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/demetrius-sprites.png'
       zodiac_date_obj.innerHTML = 'March 21 - April 19';
       zodiac_description_obj.innerHTML = 'Demetrius is cool';
       //Play audio for this character
@@ -179,8 +179,8 @@ function zodiac_info(which_one) {
     case 'Abigail':
       console.log('Abigail')
       zodiac_popup_obj.classList.remove('hide');
-      zodiac_picture_obj.src = 'images/stardew-abigail.webp';
-      zodiac_sprites_obj.src = 'images/sprites/abigail-sprites.png'
+      zodiac_picture_obj.src = 'images/zodiac-profiles/abigail-profile.webp';
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/abigail-sprites.png'
       zodiac_date_obj.innerHTML = 'April 20 - May 20';
       zodiac_description_obj.innerHTML = 'Abigail is cool';
       //Play audio for this character
@@ -189,8 +189,8 @@ function zodiac_info(which_one) {
     case 'Penny':
         console.log('Penny')
         zodiac_popup_obj.classList.remove('hide');
-        zodiac_picture_obj.src = 'images/stardew-penny.webp';
-        zodiac_sprites_obj.src = 'images/sprites/penny-sprites.png'
+        zodiac_picture_obj.src = 'images/zodiac-profiles/penny-profile.webp';
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/penny-sprites.png'
         zodiac_date_obj.innerHTML = 'May 21 - June 21';
         zodiac_description_obj.innerHTML = 'Penny is cool';
         //Play audio for this character
@@ -199,8 +199,8 @@ function zodiac_info(which_one) {
     case 'Elliot':
         console.log('Elliot')
         zodiac_popup_obj.classList.remove('hide');
-        zodiac_picture_obj.src = 'images/stardew-elliot.webp';
-        zodiac_sprites_obj.src = 'images/sprites/elliot-sprites.png'
+        zodiac_picture_obj.src = 'images/zodiac-profiles/elliot-profile.webp';
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/elliot-sprites.png'
         zodiac_date_obj.innerHTML = 'June 22 - July 22';
         zodiac_description_obj.innerHTML = 'Elliot is cool';
         //Play audio for this character
@@ -209,8 +209,8 @@ function zodiac_info(which_one) {
      case 'Willy':
         console.log('Willy')
         zodiac_popup_obj.classList.remove('hide');
-        zodiac_picture_obj.src = 'images/stardew-willy.webp';
-        zodiac_sprites_obj.src = 'images/sprites/willy-sprites.png'
+        zodiac_picture_obj.src = 'images/zodiac-profiles/willy-profile.webp';
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/willy-sprites.png'
         zodiac_date_obj.innerHTML = 'July 23 - August 22';
         zodiac_description_obj.innerHTML = 'Willy is cool';
         //Play audio for this character
@@ -219,8 +219,8 @@ function zodiac_info(which_one) {
      case 'Emily':
         console.log('Emily')
         zodiac_popup_obj.classList.remove('hide');
-        zodiac_picture_obj.src = 'images/stardew-emily.webp';
-        zodiac_sprites_obj.src = 'images/sprites/emily-sprites.png'
+        zodiac_picture_obj.src = 'images/zodiac-profiles/emily-profile.webp';
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/emily-sprites.png'
         zodiac_date_obj.innerHTML = 'August 23 - September 22';
         zodiac_description_obj.innerHTML = 'Emily is cool';
         //Play audio for this character
@@ -229,8 +229,8 @@ function zodiac_info(which_one) {
     case 'The Junimos':
         console.log('Junimos')
         zodiac_popup_obj.classList.remove('hide');
-        zodiac_picture_obj.src = 'images/stardew-junimos.webp';
-        zodiac_sprites_obj.src = 'images/sprites/junimos-sprites.png'
+        zodiac_picture_obj.src = 'images/zodiac-profiles/junimos-profile.webp';
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/junimos-sprites.png'
         zodiac_date_obj.innerHTML = 'September 23 - October 22';
         zodiac_description_obj.innerHTML = 'The Junimos are cool';
         //Play audio for this character
@@ -239,8 +239,8 @@ function zodiac_info(which_one) {
     case 'The Wizard':
         console.log('Wizard')
         zodiac_popup_obj.classList.remove('hide');
-        zodiac_picture_obj.src = 'images/stardew-wizard.webp';
-        zodiac_sprites_obj.src = 'images/sprites/wizard-sprites.png'
+        zodiac_picture_obj.src = 'images/zodiac-profiles/wizard-profile.webp';
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/wizard-sprites.png'
         zodiac_date_obj.innerHTML = 'October 23 - November 21';
         zodiac_description_obj.innerHTML = 'The Wizard is cool';
         //Play audio for this character
@@ -249,8 +249,8 @@ function zodiac_info(which_one) {
     case 'Krobus':
         console.log('Krobus')
         zodiac_popup_obj.classList.remove('hide');
-        zodiac_picture_obj.src = 'images/stardew-krobus.webp';
-        zodiac_sprites_obj.src = 'images/sprites/krobus-sprites.png'
+        zodiac_picture_obj.src = 'images/zodiac-profiles/krobus-profile.webp';
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/krobus-sprites.png'
         zodiac_date_obj.innerHTML = 'November 22 - December 21';
         zodiac_description_obj.innerHTML = 'Krobus is cool';
         //Play audio for this character
