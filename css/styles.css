@@ -31,6 +31,26 @@ h1 {
   text-shadow: 0px 0px 5px black;
 }
 
+h2 {
+  color: var(--brown);
+  font-size: 5rem;
+  text-shadow: none;
+  letter-spacing: -1px;
+}
+
+h3 {
+  color: var(--brown);
+  font-size: 2rem;
+  text-shadow: none;
+  letter-spacing: -1px;
+}
+
+p {
+  color: var(--brown);
+  font-size: 1.5rem;
+  text-shadow: none;
+}
+
 button {
   background: none;
   border: none;
@@ -123,17 +143,167 @@ button {
   justify-items: center;
   margin: 2rem 4rem 4rem 4rem;
   row-gap: 50px;
+
+  .character {
+    height: auto;
+    width: 100%;
+  }
+
+  .character:hover {
+    cursor: url(/images/stardew-hand.webp), auto;
+    transform: scale(1.1);
+  }
 }
 
-.character {
-  height: auto;
-  width: 100%;
+#zodiac-popup {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  #zodiac-frame {
+    background-image: url(/images/stardew-zodiac-frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    column-gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+    padding: 3rem 3rem;
+
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    height: 610px;
+    width: 1012px;
+  
+    button {
+      width: 4rem;
+      position: fixed;
+      top: -1rem;
+      right: -1rem;
+
+      img {
+        height: 90%;
+        width: 95%;
+      }
+    }
+
+    button:hover {
+      filter: brightness(110%);
+      top: -1.5rem;
+      right: -1.5rem;
+      width: 5rem;
+
+      img:hover {
+        cursor: url(/images/stardew-hand.webp), auto;
+      }
+    }
+
+    div {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #left {
+      grid-area: left;
+    }
+
+    #right {
+      grid-area: right;
+    }
+
+    #zodiac-picture {
+      display: block;
+      margin-bottom: 3rem;
+    }
+
+    #zodiac-sprites {
+      width: 250px;
+    }
+
+    #zodiac-date {
+      margin: 0 0 1rem;
+
+    }
+
+    #zodiac-description {
+      height: fit-content;
+    }
+  }
 }
 
-.character:hover {
-  cursor: url(/images/stardew-hand.webp), auto;
-  transform: scale(1.1);
+#help-popup {
+  align-items: center;
+  backdrop-filter: blur(3px);
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  #help-frame {
+    background-image: url(/images/stardew-help-frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 3rem;
+    text-align: center;
+
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    height: 579px;
+    width: 560px;
+  
+    button {
+      width: 4rem;
+      position: fixed;
+      top: -1rem;
+      right: -1rem;
+
+      img {
+        height: 90%;
+        width: 95%;
+      }
+    }
+
+    button:hover {
+      filter: brightness(110%);
+      top: -1.5rem;
+      right: -1.5rem;
+      width: 5rem;
+
+      img:hover {
+        cursor: url(/images/stardew-hand.webp), auto;
+      }
+    }
+
+    h1 {
+      color: var(--brown);
+      text-shadow: none;
+    }
+  }
 }
+
+.hide {
+  display: none;
+}
+
+
+
+
 
 
 
