@@ -9,7 +9,9 @@
 </head>
 <body>
   <header>
-    <img id="muted" src="images/stardew-muted.webp">
+    <button id="volume-button">
+      <img id="volume" class="muted" src="images/stardew-muted.webp">
+    </button>  
     <img id="help" src="images/stardew-question.webp">
   </header>
   <main>
@@ -19,8 +21,12 @@
       <h1>Character Are You?</h1>
     </div>
     <div id="date-input">
-      <input type="date">
-      <button>></button>
+      <form action="">
+        <input type="date" id="birthday-input" required>
+      </form>
+      <button>
+        <img id="submit" src="images/stardew-arrow.webp" alt="Submit">
+      </button>
     </div>
     <div class="character-items">
       <button id="Lewis">
