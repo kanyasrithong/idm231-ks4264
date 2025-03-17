@@ -4,13 +4,13 @@
 }
 * {
   box-sizing: border-box;
-  cursor: url(/images/stardew-cursor.webp), auto;
+  cursor: url(/images/site-icons/stardew-cursor.webp), auto;
   margin: 0;
   padding: 0;
 }
 
 html, body {
-  background: url(/images/stardew-background.webp) center center;
+  background: url(/images/site-icons/stardew-background.webp) center center;
   background-size: cover;
   font-family: Stardew_Valley;
   height: 100%;
@@ -67,7 +67,7 @@ button {
 }
 
 #volume-button > img:hover {
-  cursor: url(/images/stardew-hand.webp), auto;
+  cursor: url(/images/site-icons/stardew-hand.webp), auto;
   transform: scale(1.1);
 }
 
@@ -79,7 +79,7 @@ button {
 }
 
 #help:hover {
-  cursor: url(/images/stardew-hand.webp), auto;
+  cursor: url(/images/site-icons/stardew-hand.webp), auto;
   transform: scale(1.1);
 }
 
@@ -129,7 +129,7 @@ button {
     }
     
     img:hover {
-      cursor: url(/images/stardew-hand.webp), auto;
+      cursor: url(/images/site-icons/stardew-hand.webp), auto;
       transform: scale(1.1);
     }
   }
@@ -150,7 +150,7 @@ button {
   }
 
   .character:hover {
-    cursor: url(/images/stardew-hand.webp), auto;
+    cursor: url(/images/site-icons/stardew-hand.webp), auto;
     transform: scale(1.1);
   }
 }
@@ -201,7 +201,7 @@ button {
       width: 5rem;
 
       img:hover {
-        cursor: url(/images/stardew-hand.webp), auto;
+        cursor: url(/images/site-icons/stardew-hand.webp), auto;
       }
     }
 
@@ -286,7 +286,7 @@ button {
       width: 5rem;
 
       img:hover {
-        cursor: url(/images/stardew-hand.webp), auto;
+        cursor: url(/images/site-icons/stardew-hand.webp), auto;
       }
     }
 

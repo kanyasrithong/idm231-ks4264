@@ -120,13 +120,13 @@ krobus_obj.addEventListener('click', function() {zodiac_info('Krobus')}, false);
 
 volume_obj.addEventListener('click', function(){
   if (!volume_obj.classList.contains("unmuted")){
-    volume_obj.setAttribute('src', '/images/stardew-unmuted.png');
-    console.log('on');
+    volume_obj.setAttribute('src', '/images/site-icons/stardew-unmuted.webp');
+    console.log('music on');
     document.getElementById('theme').play();
     volume_obj.classList.add('unmuted');
   } else {
-    volume_obj.setAttribute('src', '/images/stardew-muted.webp');
-    console.log('off');
+    volume_obj.setAttribute('src', '/images/site-icons/stardew-muted.webp');
+    console.log('music off');
     document.getElementById('theme').pause();
     volume_obj.classList.remove('unmuted');
   }
