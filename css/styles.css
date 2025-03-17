@@ -165,7 +165,7 @@ button {
   width: 100vw;
 
   #zodiac-frame {
-    background-image: url(/images/stardew-zodiac-frame.png);
+    background-image: url(/images/popup-contents/stardew-zodiac-frame.webp);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -251,7 +251,7 @@ button {
   }
 
 #help-frame {
-  background-image: url(/images/stardew-help-frame.png);
+  background-image: url(/images/popup-contents/stardew-help-frame.webp);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -270,7 +270,7 @@ button {
   }
 
 #error-frame {
-  background-image: url(/images/stardew-error-frame.png);
+  background-image: url(/images/popup-contents/stardew-error-frame.webp);
   background-repeat: no-repeat;
   background-size: cover;
 

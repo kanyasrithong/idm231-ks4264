@@ -148,7 +148,7 @@ function zodiac_info(which_one) {
       console.log('Lewis')
       zodiac_popup_obj.classList.remove('hide');
       zodiac_picture_obj.src = 'images/zodiac-profiles/lewis-profile.webp';
-      zodiac_sprites_obj.src = 'images/zodiac-sprites/lewis-sprites.png'
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/lewis-sprites.webp'
       zodiac_date_obj.innerHTML = 'December 22 - January 19';
       zodiac_description_obj.innerHTML = 'You are a natural born leader. Your duties are what motivate you, and you are loved by those around you.';
       //Play audio for this character
@@ -158,7 +158,7 @@ function zodiac_info(which_one) {
       console.log('Marnie')
       zodiac_popup_obj.classList.remove('hide');
       zodiac_picture_obj.src = 'images/zodiac-profiles/marnie-profile.webp';
-      zodiac_sprites_obj.src = 'images/zodiac-sprites/marnie-sprites.png'
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/marnie-sprites.webp'
       zodiac_date_obj.innerHTML = 'January 20 - February 18';
       zodiac_description_obj.innerHTML = 'Optimism drives you, even in the most dire of circumstances. Adaptable and gentle, you are a animal lover at heart.';
       //Play audio for this character
@@ -168,7 +168,7 @@ function zodiac_info(which_one) {
       console.log('Robin')
       zodiac_popup_obj.classList.remove('hide');
       zodiac_picture_obj.src = 'images/zodiac-profiles/robin-profile.webp';
-      zodiac_sprites_obj.src = 'images/zodiac-sprites/robin-sprites.png'
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/robin-sprites.webp'
       zodiac_date_obj.innerHTML = 'February 19 - March 20';
       zodiac_description_obj.innerHTML = 'You are hardworking and very dedicated to your craft. Somewhat reserved, you can become ruled by your emotions.';
       //Play audio for this character
@@ -178,7 +178,7 @@ function zodiac_info(which_one) {
       console.log('Demetrius')
       zodiac_popup_obj.classList.remove('hide');
       zodiac_picture_obj.src = 'images/zodiac-profiles/demetrius-profile.webp';
-      zodiac_sprites_obj.src = 'images/zodiac-sprites/demetrius-sprites.png'
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/demetrius-sprites.webp'
       zodiac_date_obj.innerHTML = 'March 21 - April 19';
       zodiac_description_obj.innerHTML = 'Consistent and reliable, you work well within scientific fields. Stubborn tendencies may rule you at times, but at your core you are very loyal and protective.';
       //Play audio for this character
@@ -188,7 +188,7 @@ function zodiac_info(which_one) {
       console.log('Abigail')
       zodiac_popup_obj.classList.remove('hide');
       zodiac_picture_obj.src = 'images/zodiac-profiles/abigail-profile.webp';
-      zodiac_sprites_obj.src = 'images/zodiac-sprites/abigail-sprites.png'
+      zodiac_sprites_obj.src = 'images/zodiac-sprites/abigail-sprites.webp'
       zodiac_date_obj.innerHTML = 'April 20 - May 20';
       zodiac_description_obj.innerHTML = 'You refuse to let yourself succumb to those around you, a free-spirit who marches to the beat of their own drum. Your interests are varied, a true jack-of-all-trades.';
       //Play audio for this character
@@ -198,7 +198,7 @@ function zodiac_info(which_one) {
         console.log('Penny')
         zodiac_popup_obj.classList.remove('hide');
         zodiac_picture_obj.src = 'images/zodiac-profiles/penny-profile.webp';
-        zodiac_sprites_obj.src = 'images/zodiac-sprites/penny-sprites.png'
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/penny-sprites.webp'
         zodiac_date_obj.innerHTML = 'May 21 - June 21';
         zodiac_description_obj.innerHTML = 'You are patient, making you a natural fit for the role of teacher. A lover of books, you find beauty in the smallest details.';
         //Play audio for this character
@@ -208,7 +208,7 @@ function zodiac_info(which_one) {
         console.log('Elliot')
         zodiac_popup_obj.classList.remove('hide');
         zodiac_picture_obj.src = 'images/zodiac-profiles/elliot-profile.webp';
-        zodiac_sprites_obj.src = 'images/zodiac-sprites/elliot-sprites.png'
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/elliot-sprites.webp'
         zodiac_date_obj.innerHTML = 'June 22 - July 22';
         zodiac_description_obj.innerHTML = 'A romantic, you embrace the simpler joys in life. You enjoy the soft melody of a piano and find pleasure in the written word.';
         //Play audio for this character
@@ -218,7 +218,7 @@ function zodiac_info(which_one) {
         console.log('Willy')
         zodiac_popup_obj.classList.remove('hide');
         zodiac_picture_obj.src = 'images/zodiac-profiles/willy-profile.webp';
-        zodiac_sprites_obj.src = 'images/zodiac-sprites/willy-sprites.png'
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/willy-sprites.webp'
         zodiac_date_obj.innerHTML = 'July 23 - August 22';
         zodiac_description_obj.innerHTML = 'You live to spread your interests with others, not for your own personal gain. Keeping to yourself most of the time, you tend to like doing things your way. ';
         //Play audio for this character
@@ -228,7 +228,7 @@ function zodiac_info(which_one) {
         console.log('Emily')
         zodiac_popup_obj.classList.remove('hide');
         zodiac_picture_obj.src = 'images/zodiac-profiles/emily-profile.webp';
-        zodiac_sprites_obj.src = 'images/zodiac-sprites/emily-sprites.png'
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/emily-sprites.webp'
         zodiac_date_obj.innerHTML = 'August 23 - September 22';
         zodiac_description_obj.innerHTML = 'Outgoing and personable, your innate creativity rules your every move. You do well in social settings, but also love to delve into your personal hobbies.';
         //Play audio for this character
@@ -238,7 +238,7 @@ function zodiac_info(which_one) {
         console.log('Junimos')
         zodiac_popup_obj.classList.remove('hide');
         zodiac_picture_obj.src = 'images/zodiac-profiles/junimos-profile.webp';
-        zodiac_sprites_obj.src = 'images/zodiac-sprites/junimo-sprites.png'
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/junimo-sprites.webp'
         zodiac_date_obj.innerHTML = 'September 23 - October 22';
         zodiac_description_obj.innerHTML = 'Curious and kind, you are known to often help those around you. You are ruled by a sense of justice and generally work well within a team setting.';
         //Play audio for this character
@@ -248,7 +248,7 @@ function zodiac_info(which_one) {
         console.log('Wizard')
         zodiac_popup_obj.classList.remove('hide');
         zodiac_picture_obj.src = 'images/zodiac-profiles/wizard-profile.webp';
-        zodiac_sprites_obj.src = 'images/zodiac-sprites/wizard-sprites.png'
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/wizard-sprites.webp'
         zodiac_date_obj.innerHTML = 'October 23 - November 21';
         zodiac_description_obj.innerHTML = 'Dark and mysterious, your unpredictable personality entices those around you. Intuitive and determined, you are always striving for greatness.';
         //Play audio for this character
@@ -258,7 +258,7 @@ function zodiac_info(which_one) {
         console.log('Krobus')
         zodiac_popup_obj.classList.remove('hide');
         zodiac_picture_obj.src = 'images/zodiac-profiles/krobus-profile.webp';
-        zodiac_sprites_obj.src = 'images/zodiac-sprites/krobus-sprites.png'
+        zodiac_sprites_obj.src = 'images/zodiac-sprites/krobus-sprites.webp'
         zodiac_date_obj.innerHTML = 'November 22 - December 21';
         zodiac_description_obj.innerHTML = 'Often misunderstood, you begin to warm up to those who get to know you. You have a philosophical, complex mind that thinks beyond the surface level.';
         //Play audio for this character
