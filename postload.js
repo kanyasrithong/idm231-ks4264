@@ -11,9 +11,12 @@ const junimos_obj = document.getElementById('Junimos');
 const wizard_obj = document.getElementById('Wizard');
 const krobus_obj = document.getElementById('Krobus');
 
+const error_popup_obj = document.getElementById('error-popup');
+const error_close_obj = document.getElementById('error-close');
+
 const help_obj = document.getElementById('help');
 const help_popup_obj = document.getElementById('help-popup');
-const help_close_obj = document.getElementById('help-close-button');
+const help_close_obj = document.getElementById('help-close');
 
 const zodiac_popup_obj = document.getElementById('zodiac-popup');
 const zodiac_close_obj = document.getElementById('zodiac-close-button');
@@ -31,11 +34,16 @@ help_close_obj.addEventListener('click', function(){
   console.log('hide');
 }, false);
 
+
 help_obj.addEventListener('click', function() {
   help_popup_obj.classList.remove('hide');
   console.log('help is here!')
 }, false);
 
+error_close_obj.addEventListener('click', function(){
+  error_popup_obj.classList.add('hide');
+  console.log('hide');
+}, false);
 
 zodiac_close_obj.addEventListener('click', function(){
   zodiac_popup_obj.classList.add('hide');
@@ -87,9 +95,9 @@ submit_obj.addEventListener('click', function(){
       astrological_sign = 'Marnie'
     }
     console.log(astrological_sign);
-    zodiac_info(astrological_sign)
+    zodiac_info(astrological_sign);
   } else {
-    
+    error_popup_obj.classList.remove('hide');
   }
 
 }, false);

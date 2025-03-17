@@ -240,7 +240,7 @@ button {
   }
 }
 
-#help-popup {
+#help-popup, #error-popup {
   align-items: center;
   backdrop-filter: blur(3px);
   height: 100vh;
@@ -248,58 +248,77 @@ button {
   position: fixed;
   top: 0;
   width: 100vw;
-
-  #help-frame {
-    background-image: url(/images/stardew-help-frame.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem 3rem;
-    text-align: center;
-
-    position: absolute;  
-    top: 50%;  
-    left: 50%;  
-    transform: translate(-50%, -50%);
-    height: 579px;
-    width: 560px;
-  
-    button {
-      width: 4rem;
-      position: fixed;
-      top: -1rem;
-      right: -1rem;
-
-      img {
-        height: 90%;
-        width: 95%;
-      }
-    }
-
-    button:hover {
-      filter: brightness(110%);
-      top: -1.5rem;
-      right: -1.5rem;
-      width: 5rem;
-
-      img:hover {
-        cursor: url(/images/site-icons/stardew-hand.webp), auto;
-      }
-    }
-
-    h1 {
-      color: var(--brown);
-      margin-bottom: 2rem;
-      text-shadow: none;
-    }
-
-    h3 {
-      margin-bottom: 1rem;
-    }
   }
+
+#help-frame {
+  background-image: url(/images/stardew-help-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 3rem;
+  text-align: center;
+
+  position: absolute;  
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  height: 579px;
+  width: 560px;
+  }
+
+#error-frame {
+  background-image: url(/images/stardew-error-frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 3rem;
+  text-align: center;
+
+  position: absolute;  
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  height: 305px;
+  width: 560px;
+}
+
+#help-close, #error-close {
+  width: 4rem;
+  position: fixed;
+  top: -1rem;
+  right: -1rem;
+
+  img {
+    height: 90%;
+    width: 95%;
+  }
+}
+
+#help-close:hover, #error-close:hover {
+  filter: brightness(110%);
+  top: -1.5rem;
+  right: -1.5rem;
+  width: 5rem;
+
+  img:hover {
+    cursor: url(/images/site-icons/stardew-hand.webp), auto;
+  }
+}
+
+.h1-popup {
+  color: var(--brown);
+  margin-bottom: 2rem;
+  text-shadow: none;
+}
+
+.h3-popup {
+  margin-bottom: 1rem;
 }
 
 .hide {
