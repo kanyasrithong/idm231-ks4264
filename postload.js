@@ -154,7 +154,7 @@ function zodiac_info(which_one) {
       zodiac_description_obj.innerHTML = 'You are a natural born leader. Your duties are what motivate you, and you are loved by those around you.';
       zodiac_ld_obj.src = 'images/zodiac-ld/lewis-ld.webp';
       //Play audio for this character
-      play_sound();
+      play_sound('lewis-audio');
       break;
     case 'Marnie':
       console.log('Marnie')
@@ -165,7 +165,7 @@ function zodiac_info(which_one) {
       zodiac_description_obj.innerHTML = 'Optimism drives you, even in the most dire of circumstances. Adaptable and gentle, you are a animal lover at heart.';
       zodiac_ld_obj.src = 'images/zodiac-ld/marnie-ld.webp';
       //Play audio for this character
-      play_sound();
+      play_sound('marnie-audio');
       break;
     case 'Robin':
       console.log('Robin')
@@ -176,7 +176,7 @@ function zodiac_info(which_one) {
       zodiac_description_obj.innerHTML = 'You are hardworking and very dedicated to your craft. Somewhat reserved, you can become ruled by your emotions.';
       zodiac_ld_obj.src = 'images/zodiac-ld/robin-ld.webp';
       //Play audio for this character
-      play_sound();
+      play_sound('robin-audio');
       break;
     case 'Demetrius':
       console.log('Demetrius')
@@ -187,7 +187,7 @@ function zodiac_info(which_one) {
       zodiac_description_obj.innerHTML = 'Consistent and reliable, you work well within scientific fields. Stubborn tendencies may rule you at times, but at your core you are very loyal and protective.';
       zodiac_ld_obj.src = 'images/zodiac-ld/demetrius-ld.webp';
       //Play audio for this character
-      play_sound();
+      play_sound('demetrius-audio');
       break;
     case 'Abigail':
       console.log('Abigail')
@@ -198,7 +198,7 @@ function zodiac_info(which_one) {
       zodiac_description_obj.innerHTML = 'You refuse to let yourself succumb to those around you, a free-spirit who marches to the beat of their own drum. Your interests are varied, a true jack-of-all-trades.';
       zodiac_ld_obj.src = 'images/zodiac-ld/abigail-ld.webp';
       //Play audio for this character
-      play_sound();
+      play_sound('abigail-audio');
       break;
     case 'Penny':
         console.log('Penny')
@@ -209,7 +209,7 @@ function zodiac_info(which_one) {
         zodiac_description_obj.innerHTML = 'You are patient, making you a natural fit for the role of teacher. A lover of books, you find beauty in the smallest details.';
         zodiac_ld_obj.src = 'images/zodiac-ld/penny-ld.webp';
         //Play audio for this character
-        play_sound();
+        play_sound('penny-audio');
         break;
     case 'Elliot':
         console.log('Elliot')
@@ -220,7 +220,7 @@ function zodiac_info(which_one) {
         zodiac_description_obj.innerHTML = 'A romantic, you embrace the simpler joys in life. You enjoy the soft melody of a piano and find pleasure in the written word.';
         zodiac_ld_obj.src = 'images/zodiac-ld/elliot-ld.webp';
         //Play audio for this character
-        play_sound();
+        play_sound('elliot-audio');
         break;
      case 'Willy':
         console.log('Willy')
@@ -231,7 +231,7 @@ function zodiac_info(which_one) {
         zodiac_description_obj.innerHTML = 'You live to spread your interests with others, not for your own personal gain. Keeping to yourself most of the time, you tend to like doing things your way. ';
         zodiac_ld_obj.src = 'images/zodiac-ld/willy-ld.webp';
         //Play audio for this character
-        play_sound();
+        play_sound('willy-audio');
         break;
      case 'Emily':
         console.log('Emily')
@@ -242,7 +242,7 @@ function zodiac_info(which_one) {
         zodiac_description_obj.innerHTML = 'Outgoing and personable, your innate creativity rules your every move. You do well in social settings, but also love to delve into your personal hobbies.';
         zodiac_ld_obj.src = 'images/zodiac-ld/emily-ld.webp';
         //Play audio for this character
-        play_sound();
+        play_sound('emily-audio');
         break;
     case 'The Junimos':
         console.log('Junimos')
@@ -253,7 +253,7 @@ function zodiac_info(which_one) {
         zodiac_description_obj.innerHTML = 'Curious and kind, you are known to often help those around you. You are ruled by a sense of justice, and generally work well within a team setting.';
         zodiac_ld_obj.src = 'images/zodiac-ld/junimos-ld.webp';
         //Play audio for this character
-        play_sound();
+        play_sound('junimos-audio');
         break;
     case 'The Wizard':
         console.log('Wizard')
@@ -264,7 +264,7 @@ function zodiac_info(which_one) {
         zodiac_description_obj.innerHTML = 'Dark and mysterious, your unpredictable personality entices those around you. Intuitive and determined, you are always striving for greatness.';
         zodiac_ld_obj.src = 'images/zodiac-ld/wizard-ld.webp';
         //Play audio for this character
-        play_sound();
+        play_sound('wizard-audio');
         break;
     case 'Krobus':
         console.log('Krobus')
@@ -275,11 +275,17 @@ function zodiac_info(which_one) {
         zodiac_description_obj.innerHTML = 'Often misunderstood, you begin to warm up to those who get to know you. You have a philosophical, complex mind that thinks beyond the surface level.';
         zodiac_ld_obj.src = 'images/zodiac-ld/krobus-ld.webp';
         //Play audio for this character
-        play_sound();
+        play_sound('krobus-audio');
         break;
   }
 }
 
+//Play audio function
+const all_audios = document.querySelectorAll('audio');
 function play_sound(sound) {
+  all_audios.forEach(this_audio => {
+    this_audio.pause();
+    this_audio.currentTime = 0; //Reset sound file back to beginning
+  });
   document.getElementById(sound).play();
 }
