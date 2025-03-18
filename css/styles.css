@@ -64,6 +64,11 @@ button {
   img {
     width: 4rem;
   }
+
+  p {
+    color: white;
+    text-shadow: 0px 0px 5px black;
+  }
 }
 
 #volume-button > img:hover {
