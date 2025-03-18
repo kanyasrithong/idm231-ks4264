@@ -22,6 +22,7 @@ const zodiac_popup_obj = document.getElementById('zodiac-popup');
 const zodiac_close_obj = document.getElementById('zodiac-close-button');
 
 const volume_obj = document.getElementById('volume');
+const indicator_obj = document.getElementById('indicator');
 
 const zodiac_picture_obj = document.getElementById('zodiac-picture');
 const zodiac_sprites_obj = document.getElementById('zodiac-sprites');
@@ -268,11 +269,13 @@ function zodiac_info(which_one) {
 volume_obj.addEventListener('click', function(){
   if (!volume_obj.classList.contains("unmuted")){
     volume_obj.setAttribute('src', '/images/site-icons/stardew-unmuted.webp');
+    indicator_obj.innerHTML = 'Click to pause!';
     console.log('music on');
     play_sound('theme');
     volume_obj.classList.add('unmuted');
   } else {
     volume_obj.setAttribute('src', '/images/site-icons/stardew-muted.webp');
+    indicator_obj.innerHTML = 'Click to play!';
     console.log('music off');
     document.getElementById('theme').pause();
     volume_obj.classList.remove('unmuted');
