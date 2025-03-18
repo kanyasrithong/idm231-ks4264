@@ -209,15 +209,20 @@ button {
       align-items: center;
       display: flex;
       flex-direction: column;
-      justify-content: center;
     }
 
     #left {
+      display: flex;
+      flex-direction: column;
       grid-area: left;
+      justify-content: space-around;
     }
 
     #right {
+      display: flex;
+      flex-direction: column;
       grid-area: right;
+      justify-content: space-around;
     }
 
     #zodiac-picture {
@@ -235,7 +240,12 @@ button {
     }
 
     #zodiac-description {
-      height: fit-content;
+      margin-bottom: 2.5rem;
+    }
+
+    #zodiac-ld {
+      align-self: flex-start;
+      width: 250px;
     }
   }
 }
